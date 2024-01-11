@@ -1,0 +1,76 @@
+{
+    "key": "group_62d96133d806b",
+    "title": "Guest Author",
+    "fields": [
+        {
+            "key": "field_62d9616279341",
+            "label": "Use guest author",
+            "name": "use_guest_author",
+            "type": "radio",
+            "instructions": "This will toggle a guest author. Use this instead of a plugin.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "true": "On",
+                "false": "Off"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "default_value": "false",
+            "layout": "horizontal",
+            "return_format": "value",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_62d961de79342",
+            "label": "Guest author name",
+            "name": "guest_author_name",
+            "type": "text",
+            "instructions": "Sets the name of the guest author.\r\n(This field is not sanitized feel free to make this an a tag if needed)",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_62d9616279341",
+                        "operator": "==",
+                        "value": "true"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "side",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1658417264
+}

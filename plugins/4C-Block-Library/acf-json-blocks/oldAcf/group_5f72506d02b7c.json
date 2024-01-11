@@ -1,0 +1,220 @@
+{
+    "key": "group_5f72506d02b7c",
+    "title": "Block: Latest Post",
+    "fields": [
+        {
+            "key": "field_5f7f5bd2af7db",
+            "label": "Block Settings",
+            "name": "",
+            "type": "accordion",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "open": 0,
+            "multi_expand": 0,
+            "endpoint": 0
+        },
+        {
+            "key": "field_5f7250978fab0",
+            "label": "Excluded Category Id(s)",
+            "name": "excluded_category_ids",
+            "type": "textarea",
+            "instructions": "Put the category of the id(s) to be excluded. One per line.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": ""
+        },
+        {
+            "key": "field_5f7f5c19af7dd",
+            "label": "Header Color",
+            "name": "header_color",
+            "type": "color_picker",
+            "instructions": "The color of the block header.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": ""
+        },
+        {
+            "key": "field_5f7f5c43af7de",
+            "label": "Title Color",
+            "name": "title_color",
+            "type": "color_picker",
+            "instructions": "The color of the post title.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": ""
+        },
+        {
+            "key": "field_5f7f5eefa70ca",
+            "label": "Excerpt Color",
+            "name": "excerpt_color",
+            "type": "color_picker",
+            "instructions": "The color of the post excerpt.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": ""
+        },
+        {
+            "key": "field_5f80748b24413",
+            "label": "Background Parallax",
+            "name": "background_parallax",
+            "type": "radio",
+            "instructions": "Enable or disable the background parallax.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "enabled": "Enabled",
+                "disabled": "Disabled"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "default_value": "disabled",
+            "layout": "horizontal",
+            "return_format": "value",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_5f7f60a06b826",
+            "label": "Custom Gradient?",
+            "name": "custom_gradient",
+            "type": "radio",
+            "instructions": "Use the default gradient, or add in the code for a custom one.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "Default": "Default",
+                "Custom": "Custom"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "default_value": "Default",
+            "layout": "horizontal",
+            "return_format": "value",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_5f7f601d6b825",
+            "label": "Gradient Color",
+            "name": "gradient_color",
+            "type": "color_picker",
+            "instructions": "The color of the background gradient.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5f7f60a06b826",
+                        "operator": "==",
+                        "value": "Default"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": ""
+        },
+        {
+            "key": "field_5f7f6128d5e5e",
+            "label": "Custom Gradient Code",
+            "name": "custom_gradient_code",
+            "type": "textarea",
+            "instructions": "Paste in the css for the custom gradient. Here is a <a href=\"https:\/\/cssgradient.io\/\" style=\"color: blue !important;\"> Tool<\/a>.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5f7f60a06b826",
+                        "operator": "==",
+                        "value": "Custom"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "background: linear-gradient(90deg, rgba(0, 0, 0, 0.66) 0%, rgba(0, 0, 0, 0.25) 75%, rgba(0, 0, 0, 0) 100%);",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": ""
+        },
+        {
+            "key": "field_5f7f5befaf7dc",
+            "label": "Block Settings - Close",
+            "name": "",
+            "type": "accordion",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "open": 0,
+            "multi_expand": 0,
+            "endpoint": 1
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/latest-post"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1602254727
+}

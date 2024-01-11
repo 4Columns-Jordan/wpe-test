@@ -1,0 +1,67 @@
+{
+    "key": "group_60245ca4468f6",
+    "title": "Block Settings: Bootstrap General Settings",
+    "fields": [
+        {
+            "key": "field_60245cc44aa13",
+            "label": "Breakpoint Size",
+            "name": "breakpoint_size",
+            "type": "select",
+            "instructions": "Select the breakpoint size. This follows Bootstrap's breakpoints <a target=\"_blank\" href=\"https:\/\/getbootstrap.com\/docs\/5.0\/layout\/grid\/#how-it-works\">here<\/a>. It's best if all of the items in the container match breakpoints.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "xs": "xs",
+                "sm": "sm",
+                "md": "md",
+                "lg": "lg",
+                "xl": "xl",
+                "xxl": "xxl"
+            },
+            "default_value": "md",
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "return_format": "value",
+            "ajax": 0,
+            "placeholder": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/container-block"
+            }
+        ],
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/row-block"
+            }
+        ],
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/column-block"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1612996725
+}

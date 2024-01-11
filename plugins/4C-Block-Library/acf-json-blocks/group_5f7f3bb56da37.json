@@ -1,0 +1,655 @@
+{
+    "key": "group_5f7f3bb56da37",
+    "title": "Block Settings: Global Settings",
+    "fields": [
+        {
+            "key": "field_5f7f3ccb4873a",
+            "label": "Padding",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5f7f3d274873c",
+            "label": "Padding Top",
+            "name": "padding_top",
+            "type": "range",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "min": "",
+            "max": 500,
+            "step": "",
+            "prepend": "",
+            "append": "px"
+        },
+        {
+            "key": "field_5f7f3d374873d",
+            "label": "Padding Right",
+            "name": "padding_right",
+            "type": "range",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "min": "",
+            "max": 500,
+            "step": "",
+            "prepend": "",
+            "append": "px"
+        },
+        {
+            "key": "field_5f7f3d394873e",
+            "label": "Padding Bottom",
+            "name": "padding_bottom",
+            "type": "range",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "min": "",
+            "max": 500,
+            "step": "",
+            "prepend": "",
+            "append": "px"
+        },
+        {
+            "key": "field_5f7f3d3b4873f",
+            "label": "Padding Left",
+            "name": "padding_left",
+            "type": "range",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "min": "",
+            "max": 500,
+            "step": "",
+            "prepend": "",
+            "append": "px"
+        },
+        {
+            "key": "field_5f7f3f67cb04d",
+            "label": "Margin",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5f7f3f86cb04f",
+            "label": "Margin Top",
+            "name": "margin_top",
+            "type": "range",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 0,
+            "min": -500,
+            "max": 500,
+            "step": "",
+            "prepend": "",
+            "append": "px"
+        },
+        {
+            "key": "field_5f7f3fa1cb050",
+            "label": "Margin Bottom",
+            "name": "margin_bottom",
+            "type": "range",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 0,
+            "min": -500,
+            "max": 500,
+            "step": "",
+            "prepend": "",
+            "append": "px"
+        },
+        {
+            "key": "field_5f80a8e3e732d",
+            "label": "Background Settings",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5f80a8f3e732e",
+            "label": "Background type",
+            "name": "background_type",
+            "type": "select",
+            "instructions": "Select the type of background to use.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "bg_color": "BG Color",
+                "bg_image": "BG Image",
+                "bg_video": "BG Video"
+            },
+            "default_value": "bg_color",
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "return_format": "value",
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_5f80a92ee732f",
+            "label": "Background Color",
+            "name": "background_color",
+            "type": "color_picker",
+            "instructions": "Select the color of the background.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5f80a8f3e732e",
+                        "operator": "==",
+                        "value": "bg_color"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": ""
+        },
+        {
+            "key": "field_5f80a950e7330",
+            "label": "Background Image",
+            "name": "background_image",
+            "type": "image",
+            "instructions": "Select the background image.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5f80a8f3e732e",
+                        "operator": "==",
+                        "value": "bg_image"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "preview_size": "medium",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_602406ceb74fe",
+            "label": "Background Position",
+            "name": "background_position",
+            "type": "select",
+            "instructions": "Sets the position of the background.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5f80a8f3e732e",
+                        "operator": "==",
+                        "value": "bg_image"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "center center": "Center",
+                "center left": "Left",
+                "center right": "Right",
+                "top left": "Top Left",
+                "top center": "Top Center",
+                "top right": "Top Right",
+                "bottom left": "Bottom Left",
+                "bottom center": "Bottom Center",
+                "bottom right": "Bottom Right"
+            },
+            "default_value": "Center",
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "return_format": "value",
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_5f80a978e7331",
+            "label": "Background Video",
+            "name": "background_video",
+            "type": "select",
+            "instructions": "Select the type of video to display.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5f80a8f3e732e",
+                        "operator": "==",
+                        "value": "bg_video"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "youtube": "YouTube",
+                "vimeo": "Vimeo",
+                "wistia": "Wistia"
+            },
+            "default_value": "youtube",
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "return_format": "value",
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_5f80a9b3e7332",
+            "label": "Youtube video id",
+            "name": "youtube_video_id",
+            "type": "text",
+            "instructions": "Paste in the video id of the youtube video. Ex: https:\/\/www.youtube.com\/watch?v=XXXXXXXXXXX",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5f80a978e7331",
+                        "operator": "==",
+                        "value": "youtube"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "Video ID",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5f80aa39e7333",
+            "label": "Vimeo video id",
+            "name": "vimeo_video_id",
+            "type": "text",
+            "instructions": "Paste in the video id of the vimeo video. Ex: https:\/\/vimeo.com\/XXXXXXXXX",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5f80a978e7331",
+                        "operator": "==",
+                        "value": "vimeo"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "Video ID",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5f80aac0e7334",
+            "label": "Whistia video id",
+            "name": "whistia_video_id",
+            "type": "text",
+            "instructions": "Paste in the video id of the whistia video.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5f80a978e7331",
+                        "operator": "==",
+                        "value": "wistia"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "Video ID",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5f80aca177612",
+            "label": "Background Overlay",
+            "name": "background_overlay",
+            "type": "radio",
+            "instructions": "Include background overlay?",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5f80a8f3e732e",
+                        "operator": "==",
+                        "value": "bg_image"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_5f80a8f3e732e",
+                        "operator": "==",
+                        "value": "bg_video"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "no": "No",
+                "yes": "Yes"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "default_value": "no",
+            "layout": "horizontal",
+            "return_format": "value",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_5f80ad8977614",
+            "label": "Background Overlay Color",
+            "name": "background_overlay_color",
+            "type": "color_picker",
+            "instructions": "Select color for overlay.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5f80aca177612",
+                        "operator": "==",
+                        "value": "yes"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": ""
+        },
+        {
+            "key": "field_5f80ae2177615",
+            "label": "Background Overlay Opacity",
+            "name": "background_overlay_opacity",
+            "type": "range",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5f80aca177612",
+                        "operator": "==",
+                        "value": "yes"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "min": "",
+            "max": "",
+            "step": 10,
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_6023006291172",
+            "label": "Container Background Color",
+            "name": "container_background_color",
+            "type": "select",
+            "instructions": "Sets the background color of the container.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "none": "None",
+                "bg-primary": "Primary Color",
+                "bg-secondary": "Secondary Color",
+                "bg-light": "Light",
+                "bg-dark": "Dark",
+                "custom": "Custom"
+            },
+            "default_value": "None",
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "return_format": "value",
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_6023fdf2d4ebe",
+            "label": "Custom Container Background Color",
+            "name": "custom_container_background_color",
+            "type": "color_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_6023006291172",
+                        "operator": "==",
+                        "value": "custom"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": ""
+        },
+        {
+            "key": "field_6022fd9e54e93",
+            "label": "Block Settings",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_6022fdb454e94",
+            "label": "Block width",
+            "name": "block_width",
+            "type": "select",
+            "instructions": "Set the width of the block.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "container": "Content",
+                "container-fluid": "Full Width"
+            },
+            "default_value": "Content",
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "return_format": "value",
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_61f317b3b4e88",
+            "label": "Class Location",
+            "name": "class_location",
+            "type": "select",
+            "instructions": "Sets the location of custom classes.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "block": "Block",
+                "innerBlock": "Inner Block"
+            },
+            "default_value": "block",
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "return_format": "value",
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_61faff9bd3bae",
+            "label": "Custom Id",
+            "name": "custom_id",
+            "type": "text",
+            "instructions": "Use this to override the default block ID.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "all"
+            }
+        ]
+    ],
+    "menu_order": 9999,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1643839517
+}

@@ -2,9 +2,9 @@
 /* === Vars === */
 :root {
   /* = Colors = */
-  --FC-primary-color: #902c3a;
-  --FC-secondary-color: #e0b07e;
-  --FC-tertiary-color: #cbbfad;
+  --FC-primary-color: red;
+  --FC-secondary-color: blue;
+  --FC-tertiary-color: green;
   --FC-soft-salmon: #e6bd9e;
   --FC-dark-blue: #010122;
   --FC-charcoal: #313131;

@@ -1,0 +1,258 @@
+{
+    "key": "group_636d6d4f1a9a4",
+    "title": "Block: Lottie Player",
+    "fields": [
+        {
+            "key": "field_636d6d4fa65e9",
+            "label": "Attributes",
+            "name": "attributes",
+            "aria-label": "",
+            "type": "checkbox",
+            "instructions": "These control the attributes of the the lottie player. Here's the <a href=\"https:\/\/docs.lottiefiles.com\/lottie-player\/components\/lottie-player\/properties\" target=\"_blank\">docs for more info.<\/a>",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "autoplay": "Auto Play",
+                "controls": "Controls",
+                "hover": "Hover",
+                "loop": "Loop",
+                "disableCheck": "Disable Check"
+            },
+            "default_value": [],
+            "return_format": "value",
+            "allow_custom": 0,
+            "layout": "vertical",
+            "toggle": 0,
+            "save_custom": 0
+        },
+        {
+            "key": "field_636d7ca83d2d1",
+            "label": "Lottie Source",
+            "name": "src",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "The animation to play, either Bodymovin JSON data or a URL to a JSON file.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_636e665710eac",
+            "label": "Advanced Settings",
+            "name": "",
+            "aria-label": "",
+            "type": "accordion",
+            "instructions": "You can honestly leave this alone<br> \r\nunless you <b>NEED<\/b> something here",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "open": 0,
+            "multi_expand": 0,
+            "endpoint": 0
+        },
+        {
+            "key": "field_636e667410ead",
+            "label": "Direction",
+            "name": "direction",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "Direction of the animation. Set to 1 to play the animation forward or set to -1 to play it backward.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "1": "Forward",
+                "-1": "Backward"
+            },
+            "default_value": 1,
+            "return_format": "value",
+            "allow_null": 0,
+            "other_choice": 0,
+            "layout": "vertical",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_636e669e10eae",
+            "label": "preserveAspectRatio",
+            "name": "preserveaspectratio",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Valid value to preserve the aspect ratio. See the <a href=\"https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/SVG\/Attribute\/preserveAspectRatio\" target=\"_blank\">Mozilla documentation<\/a> for more information.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "xMidYMid meet",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_636e66c310eaf",
+            "label": "renderer",
+            "name": "renderer",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "The renderer to use for the animation",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "svg",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_636e66d210eb0",
+            "label": "mode",
+            "name": "mode",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Play mode. Setting the mode to PlayMode.Bounce plays the animation in an indefinite cycle, forwards and then backwards.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "PlayMode.Normal",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_636e66f310eb1",
+            "label": "Background",
+            "name": "background",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Background color. By default, the background is transparent and will take the color of the parent container.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_636e671c10eb2",
+            "label": "Count",
+            "name": "count",
+            "aria-label": "",
+            "type": "number",
+            "instructions": "Number of times to loop the animation.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "min": "",
+            "max": "",
+            "placeholder": "",
+            "step": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_63e3da35191fe",
+            "label": "Speed",
+            "name": "speed",
+            "aria-label": "",
+            "type": "number",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 1,
+            "min": "",
+            "max": "",
+            "placeholder": "",
+            "step": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_63e3eb5ac7b75",
+            "label": "Advanced Settings Close",
+            "name": "",
+            "aria-label": "",
+            "type": "accordion",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "open": 0,
+            "multi_expand": 0,
+            "endpoint": 1
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/lottie-player"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1675881405
+}
