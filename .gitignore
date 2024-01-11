@@ -1,0 +1,24 @@
+# Removing Un needed directories
+/uploads/*
+/upgrade/*
+/updraft
+/languages
+/mu-plugins
+/mu-plugins-old
+/ai1wm-backups
+/upgrade-temp-backup
+# Plugins
+/plugins/*
+!/plugins/four-columns-custom-bocks
+!plugins/4C-Block-Library
+# Themes
+/themes/*
+!/themes/4C-Boilerplate
+!/themes/4C-Boilerplate-master
+!/themes/4C-Boilerplate-development
+# Files
+.DS_store
+advanced-cache-backup.php
+advanced-cache.php
+object-cache-backup.php
+index.php

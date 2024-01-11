@@ -1,0 +1,38 @@
+.edit-post-visual-editor__content-area .editor-styles-wrapper {
+  background-color: #fafafa !important;
+}
+
+.edit-post-visual-editor__content-area .editor-styles-wrapper p.has-text-color {
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
+}
+
+.edit-post-visual-editor__content-area .editor-styles-wrapper a {
+  color: #000;
+}
+
+.download-media-button {
+  margin-left: 8px !important;
+}
+
+.containerBlock {
+  border: dashed 1px red;
+  padding: 5px !important;
+}
+.innerRow {
+  border: dashed 1px blue;
+  padding: 5px !important;
+}
+.innerColumn {
+  border: dashed 1px grey;
+  padding: 5px !important;
+}
+.acf-block-preview .wp-block[data-align="right"] {
+  height: auto;
+}
+.acf-block-preview .wp-block[data-align="right"] > * {
+  float: none;
+}
+
+.editor-styles-wrapper .wp-block{
+  max-width: calc(100% - 16px) !important;
+}

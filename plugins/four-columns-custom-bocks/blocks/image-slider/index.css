@@ -1,0 +1,42 @@
+/* === Image Slider Styling === */
+.imageSlider__wrapper {
+  width: 100%;
+  position: relative;
+  padding-bottom: 100%;
+  overflow: hidden;
+  box-shadow: 12px 12px 6px 0px rgba(0, 0, 0, 0.13);
+}
+.imageSliderSwiper {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+}
+.imageSliderPagination {
+  pointer-events: none;
+}
+.imageSliderPagination .swiper-pagination-bullet {
+  pointer-events: all;
+}
+@media screen and (max-width: 767.98px) {
+  .imageSliderPagination {
+    top: unset;
+    bottom: var(--FC-standard-multiplier);
+    flex-direction: row;
+    transform: none;
+  }
+}
+/* == Slides == */
+.imageSlider__slide {
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+}
+.imageSlide__image {
+  position: absolute;
+  inset: 0;
+  object-fit: cover;
+  object-position: center;
+  height: 100%;
+  width: 100%;
+}

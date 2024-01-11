@@ -1,0 +1,58 @@
+/* === Map Block Styling === */
+/* == Bakcground == */
+.mapContainer__bgContainer {
+  position: absolute;
+  inset: 0;
+  z-index: 5;
+  height: 100%;
+  width: 100%;
+  pointer-events: none;
+}
+.mapContainer__bgContainer .container-fluid {
+  padding: 0px;
+  height: 100%;
+}
+.mapContainer__bgWrapper {
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+}
+.mapContainer__bgColor {
+  position: absolute;
+  inset: 0;
+  opacity: 0.2;
+  z-index: 0;
+}
+.mapContainer__bg {
+  position: absolute;
+  inset: 0;
+  object-fit: cover;
+  object-position: center;
+  height: 100%;
+  width: 100%;
+  opacity: 0.2;
+  z-index: 1;
+}
+@media screen and (max-width: 767.98px) {
+  .mapContainer__contentWrapper {
+    padding: 40px 0px 46px 0px !important;
+  }
+}
+/* == Map == */
+.mapContainer__mapWrapper {
+  padding: 64px 0;
+  height: 100%;
+}
+.mapContainer__map {
+  height: 100%;
+}
+@media screen and (max-width: 767.98px) {
+  .mapContainer__mapWrapper {
+    padding: 0px;
+    padding-bottom: 75%;
+  }
+  .mapContainer__map {
+    position: absolute !important;
+    inset: 0;
+  }
+}

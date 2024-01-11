@@ -1,0 +1,29 @@
+/* === Header Block Styling === */
+.headerBlock {
+  overflow: hidden;
+}
+.headerBlock .container {
+  z-index: 10;
+  position: relative;
+}
+.headerBlock__bgWrapper {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+}
+.headerBlock__bg {
+  object-fit: cover;
+  object-position: center;
+  height: 100% !important;
+  width: 100%;
+  user-select: none;
+  pointer-events: none;
+}
+.headerBlock__bgOverlay {
+  position: absolute;
+  background-color: var(--FC-charcoal);
+  opacity: 0.66;
+  inset: 0;
+  z-index: 1;
+}
