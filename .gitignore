@@ -10,7 +10,7 @@
 # Plugins
 /plugins/*
 !/plugins/four-columns-custom-bocks
-!plugins/4C-Block-Library
+!/plugins/4C-Block-Library
 # Themes
 /themes/*
 !/themes/4C-Boilerplate
